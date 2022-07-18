@@ -93,99 +93,92 @@ body section:first-child h2
     ;
 }
 
-.item1
+#item1
 {
     grid-area: a;
 }
 
-.item2
+#item2
 {
     grid-area: b;
 }
 
-.item3
+#item3
 {
     grid-area: c;
 }
 
-.item4
+#item4
 {
     grid-area: d;
 }
 
-.item5
+#item5
 {
     grid-area: e;
 }
 
-.item6
+#item6
 {
     grid-area: f;
 }
 
-#last-button
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.item7
+#item7
 {
     grid-area: g;
 }
 
-.item8
+#item8
 {
     grid-area: h;
 }
 
-.item9
+#item9
 {
     grid-area: i;
 }
 
-.item10
+#item10
 {
     grid-area: j;
 }
 
-.item11
+#item11
 {
     grid-area: k;
 }
 
-.item12
+#item12
 {
     grid-area: l;
 }
 
-.item13
+#item13
 {
     grid-area: m;
 }
 
-.item14
+#item14
 {
     grid-area: n;
 }
 
-.item15
+#item15
 {
     grid-area: o;
 }
 
-.item16
+#item16
 {
     grid-area: p;
 }
 
-.item17
+#item17
 {
     grid-area: q;
 }
 
-.item18
+#item18
 {
     grid-area: r;
 }
@@ -200,7 +193,12 @@ body section:first-child h2
     padding-top: 8px;
 }
 
-#keypad button:not(.item4):not(.item18):not(.item17)
+#keypad button:hover
+{
+    cursor: pointer;
+}
+
+#keypad button:not(#item4):not(#item18):not(#item17)
 {
     width: 90%;
     max-width: 110px;
@@ -209,7 +207,7 @@ body section:first-child h2
     box-shadow: 0 4px hsl(28, 16%, 65%);
 }
 
-.item4, .item17
+#item4, #item17
 {
     font-size: 30px;
     color: white;
@@ -217,18 +215,18 @@ body section:first-child h2
     background-color: hsl(225, 21%, 49%);
 }
 
-.item4
+#item4
 {
     width: 90%;
     max-width: 110px;
 }
 
-.item17, .item18
+#item17, #item18
 {
-    width: 250px;
+    width: 90%;
 }
 
-.item18
+#item18
 {
     font-size: 40px;
     background-color: red;
