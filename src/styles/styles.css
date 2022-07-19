@@ -22,7 +22,7 @@ body section:first-child
 {
     width: 90%;
     max-width: 550px;
-    height: 70px;  
+    height: 90px;  
 }
 
 body section:first-child
@@ -37,15 +37,40 @@ body section:first-child h1
     color: white;
     font-family: 'League Spartan', sans-serif;
     font-size: 35px;
+    margin-top: 18px;
 }
 
 body section:first-child h2
 {
-    margin-top: 14px;
+    margin-top: 30px;
     text-transform: uppercase;
     font-size: 15px;
     color: white;
     font-family: 'League Spartan', sans-serif;
+    margin-right: 25px;
+}
+
+#theme
+{
+    display: flex;
+}
+
+h3
+{
+    margin-left: 8px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 8px;
+}
+
+#change-theme button
+{
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
 }
 
 #screen
