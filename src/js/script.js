@@ -23,7 +23,15 @@ function getValue(item)//get the value of a button and print it on the calculato
 function calculate() // calculate the operation on the screen
 {
     const text = document.getElementById("numbers")
-    const result = eval(screenValue)
-    text.innerHTML = result
-    screenValue = ""
+    try
+    {
+        const result = eval(screenValue)
+        text.innerHTML = result
+        screenValue = ""
+    }
+    catch
+    {
+        text.innerHTML = "ERROR"
+        screenValue = ""
+    }
 }
